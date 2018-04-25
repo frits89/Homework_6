@@ -1,0 +1,26 @@
+.logo-wrapper{
+    margin-left:2%;
+}
+
+.logo-transition{
+    transition:5s;
+}
+
+.logo-settings{
+    background:#f90710;
+    width:230px;
+    height:230px;
+    border-radius:100%;
+}
+
+.logo-opacity{
+    opacity: 0.4;
+}
+
+.stadium-background{
+    background-image:url("../img/allianz.jpg");
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}

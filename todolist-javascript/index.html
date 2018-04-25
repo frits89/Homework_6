@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List JavaScript</title>
+      <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+
+<body>
+<h1> Todo List</h1>
+
+<div class="panel">
+  <div class="panel-body">
+    <div class="head">
+    <div class="col-md-12">
+        <input type="text" class="form-control" placeholder="Add a task" id="listdata">
+        <button class="btn btn-primary" onclick ="addTodo()">Add</button>
+        <button class="btn btn-danger" onclick="removeAll()">Clear</button>
+    </div>
+    </div>
+
+    <div class="col-md-8">
+      <ul class="list-group" id="ul">
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script  src="js/index.js"></script>
+
+</body>
+</html>
